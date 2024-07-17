@@ -10,8 +10,10 @@
 		"install-backend": "cd backend && npm i",
 		"installer": "npm i && npm run install-backend && npm run install-frontend",
 		"prepare": "husky install && chmod ug+x .husky/*"
+		"dev": "vite"
 	},
 	"devDependencies": {
 		"husky": "^8.0.0"
+		"vite": "^2.0.0"
 	}
 }
